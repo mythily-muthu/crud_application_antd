@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const SingleBook = () => {
+
+
+  
   return (
     <>
       <div className="px-10 py-5 flex justify-between ">

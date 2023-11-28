@@ -14,9 +14,15 @@ function App() {
     <div className="w-screen h-screen">
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/singlebook" element={<SingleBook />} />
-          <Route path="/addbook" element={<AddBook />} />
+          <Route
+            path="/"
+            element={<Home books={books} setBooks={setBooks} />}
+          />
+          <Route path="/singlebook/:id" element={<SingleBook />} />
+          <Route
+            path="/addbook"
+            element={<AddBook books={books} setBooks={setBooks} />}
+          />
           <Route path="/editbook/:id" element={<EditBook />} />
         </Routes>
       </Router>

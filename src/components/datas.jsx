@@ -1,5 +1,6 @@
 export const Books = [
   {
+    key: 1,
     serial_no: 1,
     title: "The Catcher in the Rye",
     author: "J.D. Salinger",
@@ -8,6 +9,7 @@ export const Books = [
     sale_price: 15.99,
   },
   {
+    key: 2,
     serial_no: 2,
     title: "One Hundred Years of Solitude",
     author: "Gabriel Garcia Marquez",
@@ -16,6 +18,7 @@ export const Books = [
     sale_price: 19.99,
   },
   {
+    key: 3,
     serial_no: 3,
     title: "To Kill a Mockingbird",
     author: "Harper Lee",
@@ -24,6 +27,7 @@ export const Books = [
     sale_price: 13.99,
   },
   {
+    key: 4,
     serial_no: 4,
     title: "Harry Potter and the Philosopher's Stone",
     author: "J.K. Rowling",
@@ -32,5 +36,3 @@ export const Books = [
     sale_price: 23.99,
   },
 ];
-
-

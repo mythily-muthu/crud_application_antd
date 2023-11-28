@@ -1,7 +1,10 @@
 import { Input } from "antd";
 import React from "react";
+import { useParams } from "react-router-dom";
 
 const EditBook = () => {
+  const { id } = useParams();
+  console.log("current id for edit page:", id);
   return (
     <div className="flex flex-col gap-y-3 p-20 justify-center items-center">
       <p className="py-10 font-semibold text-xl">
