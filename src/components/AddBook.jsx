@@ -67,7 +67,7 @@ const AddBook = ({ books, setBooks }) => {
         <Input
           placeholder="Enter the author here.."
           size="large"
-          className="w-[550px]"
+          className="w-[551px]"
           // onChange={(e) => setAddBook({ ...addBook, author: e.target.value })}
           onChange={(e) => handleInputChange("author", e.target.value)}
           value={addBook.author}
